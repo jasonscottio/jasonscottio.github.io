@@ -1,0 +1,128 @@
+body{
+  background-color: #d0d0d0;
+  font-family: 'Raleway', sans-serif;
+}
+a{
+  text-decoration: none;
+  color: #670a0a;
+}
+
+#myPic{
+  width: 33%;
+  float: right;
+  margin: 20px;
+}
+
+p.social{
+  font-size: 20px;
+  overflow: auto;
+}
+img.social{
+  float: left;
+  height: 25px;
+}
+a:hover{
+  color: black;
+}
+
+header{
+  border: 5px solid #670a0a;
+  width: 900px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.logo{
+  text-align: left;
+  text-transform: uppercase;
+  color: black;
+}
+
+.logo h1{
+  font-size: 2rem;
+  margin-bottom: 0;
+  margin-left: 2.5%;
+}
+
+.navbar{
+  font-size: 1.25rem;
+}
+
+.navbar .mainmenu  {
+  display:inline;
+  list-style:none;
+  position: relative;
+  padding: 0 42px;
+  margin-left: 20px;
+  border-left: solid black 1px;
+}
+
+.navbar .mainmenu:last-of-type{
+  border-right: solid black 1px;
+}
+
+.dropdown{
+  color: #670a0a;
+}
+
+.dropdown:hover{
+  color: black;
+}
+
+.dropdown .submenu {
+    margin:0;
+    padding:0;
+    display:none;
+    position:absolute; /*Added*/
+    left:0; top:10;
+    border: 3px solid #2a2a2a; /*Added*/
+    background-color: #bababa;  /*Added*/
+}
+
+.dropdown:hover .submenu {
+    display:block;
+    width:100%;  /* Change the width of the hovered ul element*/
+}
+
+.submenu li {
+    list-style: square;
+    width: 100%;
+    color: black; /* Change the text color for the sub menu items*/
+    margin-left: 15%;
+    margin-top: 10px;
+    margin-bottom: 10px; /* The sub menu items text starts with no margin*/
+}
+
+main{
+  border: 5px solid #670a0a;
+  width: 900px;
+  margin: 20px auto;
+  overflow: auto;
+  }
+
+.post{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+hr{
+  width: 75%;
+}
+h2, h3, h4{
+  margin-left: 2.5%;
+}
+p{
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+
+.date{
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+footer{
+  text-align: center;
+  width: 900px;
+  margin: 0 auto;
+}
