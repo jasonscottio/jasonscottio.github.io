@@ -2,6 +2,20 @@ h1, .h2, .h3, h1, h2, h3 {
     margin-bottom: 20px;
 }
 
+.fiveyears > h2{
+  text-align: center;
+}
+
+.fiveyears p{
+  text-indent: 50px;
+
+}
+
+p{
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+
 .aboutMe > h2, .contactMe > h2{
   margin-top: 0;
 }
