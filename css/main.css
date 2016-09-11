@@ -8,12 +8,12 @@ h1, .h2, .h3, h1, h2, h3 {
 
 .fiveyears p{
   text-indent: 50px;
-
 }
 
 p{
   font-size: 1.5rem;
   margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .aboutMe > h2, .contactMe > h2{
