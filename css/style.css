@@ -1,4 +1,4 @@
-header{
+header {
     height: 95vh;
     width: 100vw;
     display: flex;
@@ -8,21 +8,45 @@ header{
     background-position: center;
     background-size: cover;
 }
-.header-content{
+
+.header-content {
     text-align: center;
 }
 
-body{   
+body {
     padding-top: 50px;
 }
-header h1, header h2, header h3{
-    color:rgb(221, 221, 221);    font-size: 2em;
+
+.navbar-brand{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(56, 56, 56, 1);
 }
 
- header h1{
-     font-size: 6rem;
- }
- header h3{
-     font-size: 2rem;
-     margin-top: 2em;
- }
+/*=================================
+    HEADER STYLES
+    =============================*/
+    
+header h1, header h2, header h3, header h4 {
+    color: rgb(221, 221, 221);
+    text-shadow: 1px 1px 1px rgba(56, 56, 56, 1);
+}
+
+header h1 {
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+header h3 {
+    font-size: 2rem;
+    margin-top: 1em;
+}
+
+hr{
+    margin: 2.5rem 0;
+}
+
+header button{
+    margin-left: .5rem;
+    margin-right: .5rem;
+}
