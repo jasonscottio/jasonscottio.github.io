@@ -1,0 +1,28 @@
+header{
+    height: 95vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../img/desk-office.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.header-content{
+    text-align: center;
+}
+
+body{   
+    padding-top: 50px;
+}
+header h1, header h2, header h3{
+    color:rgb(221, 221, 221);    font-size: 2em;
+}
+
+ header h1{
+     font-size: 6rem;
+ }
+ header h3{
+     font-size: 2rem;
+     margin-top: 2em;
+ }
