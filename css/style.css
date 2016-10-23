@@ -50,3 +50,12 @@ header a{
     margin-left: .5rem;
     margin-right: .5rem;
 }
+
+.contact-me{
+    list-style: none;
+    line-height: 2;
+}
+
+.spacer{
+    height: 50px;
+}
