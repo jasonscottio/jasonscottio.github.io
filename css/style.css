@@ -28,25 +28,24 @@ header {
     text-align: center;
 }
 
-header h1,
-header h2,
-header h3,
-header h4 {
+.header-h1,
+.header-h3
+{
     color: rgb(221, 221, 221);
     text-shadow: 1px 1px 1px rgba(56, 56, 56, 1);
 }
 
-header h1 {
+.header-h1 {
     font-size: 5rem;
     font-weight: bold;
 }
 
-header h3 {
+.header-h3 {
     font-size: 2rem;
     margin-top: 1em;
 }
 
-hr {
+.header-hr {
     margin: 2.5rem 0;
 }
 
@@ -81,15 +80,35 @@ body>.container {
     padding: 60px 15px 0;
 }
 
-@media only screen and (min-width: 700px) and (max-width: 1200) {
-    header h1 {
+
+/*===========================================
+        MEDIA QUERIES
+  ==========================================*/
+
+
+@media only screen and (min-width: 700px) {
+
+    /*****HEADER****/
+
+    .header-h1 {
         font-size: 8rem;
     }
-    header h3 {
+    .header-h3 {
         font-size: 3rem;
     }
-    header hr {
+    .header-hr {
         margin: 3rem 0;
+    }
+
+    /******BODY***/
+    h2{
+        margin-bottom: 3rem;
+    }
+    h3{
+        margin: 3.5rem 0;
+    }
+    p{
+        font-size: 1.5em;
     }
 }
 
@@ -104,13 +123,13 @@ body>.container {
         font-size: 1.5em;
         margin-left: 15px;
     }
-    header h1 {
+    .header-h1 {
         font-size: 9rem;
     }
-    header h3 {
+    .header-h3 {
         font-size: 3.5rem;
     }
-    header hr {
+    .header-hr {
         margin: 4rem 0;
     }
     header .btn-primary {
