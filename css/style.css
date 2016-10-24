@@ -1,18 +1,18 @@
-
 body {
     padding-top: 50px;
 }
 
-.navbar-brand{
+.navbar-brand {
     font-family: 'Montserrat';
     font-weight: bold;
     text-shadow: 1px 1px 1px rgba(56, 56, 56, 1);
 }
 
+
 /*=================================
     HEADER STYLES
     =============================*/
-    
+
 header {
     height: 95vh;
     /*width: 100vw;*/
@@ -28,7 +28,10 @@ header {
     text-align: center;
 }
 
-header h1, header h2, header h3, header h4 {
+header h1,
+header h2,
+header h3,
+header h4 {
     color: rgb(221, 221, 221);
     text-shadow: 1px 1px 1px rgba(56, 56, 56, 1);
 }
@@ -43,26 +46,28 @@ header h3 {
     margin-top: 1em;
 }
 
-hr{
+hr {
     margin: 2.5rem 0;
 }
 
-header a{
+header a {
     margin-left: .5rem;
     margin-right: .5rem;
 }
 
-.contact-me{
+.contact-me {
     list-style: none;
     line-height: 2;
 }
 
-.spacer{
+.spacer {
     height: 50px;
 }
-.wrapper{
+
+.wrapper {
     padding-bottom: 30px;
 }
+
 .footer {
     bottom: 0;
     height: 30px;
@@ -72,53 +77,44 @@ header a{
     align-content: center;
 }
 
-body > .container {
+body>.container {
     padding: 60px 15px 0;
 }
 
-@media only screen and (min-width: 700px) and (max-width: 1200){
+@media only screen and (min-width: 700px) and (max-width: 1200) {
     header h1 {
         font-size: 8rem;
     }
-    header h3{
+    header h3 {
         font-size: 3rem;
     }
-
-    header hr{
+    header hr {
         margin: 3rem 0;
     }
-
 }
 
-@media only screen and (min-width: 1200px){
-        #nav-links {
-        font-size: 1.5em;   
+@media only screen and (min-width: 1200px) {
+    #nav-links {
+        font-size: 1.5em;
     }
-    #nav-links li{
+    #nav-links li {
         margin-right: 15px;
     }
-    .navbar-brand{
+    .navbar-brand {
         font-size: 1.5em;
         margin-left: 15px;
     }
-
-        header h1 {
-        font-size: 9rem; 
+    header h1 {
+        font-size: 9rem;
     }
-
-    header h3{
+    header h3 {
         font-size: 3.5rem;
     }
-
-    header hr{
+    header hr {
         margin: 4rem 0;
     }
-
-    header .btn-primary{
+    header .btn-primary {
         font-size: 2rem;
         margin: 0 15px;
-    } 
-        
-    
-
+    }
 }
