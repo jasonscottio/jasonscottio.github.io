@@ -6666,6 +6666,7 @@ button.close {
   .hidden-sm {
     display: none !important;
   }
+
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   .hidden-md {

@@ -15,7 +15,7 @@ body {
     
 header {
     height: 95vh;
-    width: 100vw;
+    /*width: 100vw;*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -74,4 +74,17 @@ header a{
 
 body > .container {
     padding: 60px 15px 0;
+}
+
+@media only screen and (min-width: 700px){
+    header h1 {
+        font-size: 8rem;
+    }
+    header h3{
+        font-size: 3rem;
+    }
+
+    hr{
+        margin: 3rem 0;
+    }
 }
