@@ -8,6 +8,15 @@ body {
     text-shadow: 1px 1px 1px rgba(56, 56, 56, 1);
 }
 
+.portImg {
+    width: 90%;
+}
+.portCol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
 /*=================================
     HEADER STYLES
