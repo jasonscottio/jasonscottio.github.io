@@ -15,7 +15,7 @@
     }
 
     hr {
-        margin-top: 5%;
+        margin: 1.5em 0;
     }
 
     h2 {
@@ -24,7 +24,7 @@
 
     h3 {
         font-size: 1.5em;
-        margin-bottom: 5%;
+        margin-bottom: 1em;  
     }
 
     /*  ========
@@ -88,22 +88,23 @@
     }
     
     .header-h1 {
-        font-size: 5rem;
+        font-size: 3.5em;
         font-weight: bold;
     }
     
     .header-h3 {
-        font-size: 2rem;
+        font-size: 1.25em;
         margin-top: 1em;
     }
-    
+
     .header-hr {
-        margin: 2.5rem 0;
+        margin: 1.75em 0
     }
     
-    header a {
-        margin-left: .5rem;
-        margin-right: .5rem;
+    .header-button {
+        font-size: .75em;
+        margin-left: .25em;
+        margin-right: .25em;
     }
     
     .contact-me {
@@ -138,34 +139,56 @@
 
 
     }
-    
-    @media only screen and (min-width: 700px) {
 
-        main {
+    @media only screen and (min-width: 400px) {
+        header, main {
+            font-size: 1.15em;
+        }
+    }
+
+    @media only screen and (min-width: 600px) {
+        header{
+            font-size: 1.5em;
+        }
+        main{
             font-size: 1.25em;
         }
+    }
 
-        hr{
-            margin-top: 2.5%;
+    @media only screen and (min-width: 768px) {
+        header{
+            font-size: 1.75em;
         }
 
-        #about h3{
-            margin-bottom: 2.5%;
-            margin-top: 2.5%;
+        h2{
+            font-size: 2.5em;
         }
-        /*****HEADER****/
-        .header-h1 {
-            font-size: 8rem;
+        h3{
+            font-size: 1.75em;
         }
-        .header-h3 {
-            font-size: 3rem;
+
+
+        #portfolio hr {
+            margin-bottom: 2em;
         }
-        .header-hr {
-            margin: 3rem 0;
+        .portImg {
+            margin-bottom: 2em;
         }
-        
+    }
+
+    @media only screen and (min-width: 1024px){
+        header{
+            font-size: 2em;
+        }
+    }
+
+    @media only screen and (min-width: 1200px){
+        header{
+            font-size: 2.25em;
+        }
     }
     
+  
     @media only screen and (min-width: 1200px) {
         #nav-links {
             font-size: 1.5em;
@@ -176,18 +199,5 @@
         .navbar-brand {
             font-size: 1.5em;
             margin-left: 15px;
-        }
-        .header-h1 {
-            font-size: 9rem;
-        }
-        .header-h3 {
-            font-size: 3.5rem;
-        }
-        .header-hr {
-            margin: 4rem 0;
-        }
-        header .btn-primary {
-            font-size: 2rem;
-            margin: 0 15px;
         }
     }
