@@ -1,148 +1,157 @@
-body {
-    padding-top: 50px;
-}
+    body {
+        padding-top: 50px;
+    }
+    
+    .navbar-brand {
+        font-family: 'Montserrat';
+        font-weight: bold;
+        text-shadow: 1px 1px 1px rgba(56, 56, 56, 1);
+    }
+    
+    .portImg {
+        width: 90%;
+    }
+    
+    .portCol {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .portImg img {
+        width: 100%;
+    }
+    
+    a.thumbnail:hover,
+    a.thumbnail:focus,
+    a.thumbnail.active {
+        border-color: rgba(153, 153, 153, .75);
+    }
 
-.navbar-brand {
-    font-family: 'Montserrat';
-    font-weight: bold;
-    text-shadow: 1px 1px 1px rgba(56, 56, 56, 1);
-}
-
-.portImg {
-    width: 90%;
-}
-.portCol {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-/*=================================
+    h3{
+        font-size: 1.5em;
+    }
+    /*=================================
     HEADER STYLES
     =============================*/
-
-header {
-    height: 95vh;
-    /*width: 100vw;*/
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url('../img/desk-office.jpg');
-    background-position: center;
-    background-size: cover;
-}
-
-.header-content {
-    text-align: center;
-}
-
-.header-h1,
-.header-h3
-{
-    color: rgb(221, 221, 221);
-    text-shadow: 1px 1px 1px rgba(56, 56, 56, 1);
-}
-
-.header-h1 {
-    font-size: 5rem;
-    font-weight: bold;
-}
-
-.header-h3 {
-    font-size: 2rem;
-    margin-top: 1em;
-}
-
-.header-hr {
-    margin: 2.5rem 0;
-}
-
-header a {
-    margin-left: .5rem;
-    margin-right: .5rem;
-}
-
-.contact-me {
-    list-style: none;
-    line-height: 2;
-}
-
-.spacer {
-    height: 50px;
-}
-
-.wrapper {
-    padding-bottom: 30px;
-}
-
-.footer {
-    bottom: 0;
-    height: 30px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
-
-body>.container {
-    padding: 60px 15px 0;
-}
-
-
-/*===========================================
+    
+    header {
+        height: 95vh;
+        /*width: 100vw;*/
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url('../img/desk-office.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .header-content {
+        text-align: center;
+    }
+    
+    .header-h1,
+    .header-h3 {
+        color: rgb(221, 221, 221);
+        text-shadow: 1px 1px 1px rgba(56, 56, 56, 1);
+    }
+    
+    .header-h1 {
+        font-size: 5rem;
+        font-weight: bold;
+    }
+    
+    .header-h3 {
+        font-size: 2rem;
+        margin-top: 1em;
+    }
+    
+    .header-hr {
+        margin: 2.5rem 0;
+    }
+    
+    header a {
+        margin-left: .5rem;
+        margin-right: .5rem;
+    }
+    
+    .contact-me {
+        list-style: none;
+        line-height: 2;
+    }
+    
+    .spacer {
+        height: 50px;
+    }
+    
+    .wrapper {
+        padding-bottom: 30px;
+    }
+    
+    .footer {
+        bottom: 0;
+        height: 30px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    body>.container {
+        padding: 60px 15px 0;
+    }
+    /*===========================================
         MEDIA QUERIES
   ==========================================*/
-
-
-@media only screen and (min-width: 700px) {
-
-    /*****HEADER****/
-
-    .header-h1 {
-        font-size: 8rem;
+    
+    @media only screen and (min-width: 700px) {
+        /*****HEADER****/
+        .header-h1 {
+            font-size: 8rem;
+        }
+        .header-h3 {
+            font-size: 3rem;
+        }
+        .header-hr {
+            margin: 3rem 0;
+        }
+        /******BODY***/
+        h2 {
+            font-size: 2.75em;
+            margin-bottom: 3rem;
+        }
+        h3 {
+            font-size: 2em;
+            margin: 3.5rem 0;
+        }
+        p {
+            font-size: 1.5em;
+        }
     }
-    .header-h3 {
-        font-size: 3rem;
+    
+    @media only screen and (min-width: 1200px) {
+        #nav-links {
+            font-size: 1.5em;
+        }
+        #nav-links li {
+            margin-right: 15px;
+        }
+        .navbar-brand {
+            font-size: 1.5em;
+            margin-left: 15px;
+        }
+        .header-h1 {
+            font-size: 9rem;
+        }
+        .header-h3 {
+            font-size: 3.5rem;
+        }
+        .header-hr {
+            margin: 4rem 0;
+        }
+        header .btn-primary {
+            font-size: 2rem;
+            margin: 0 15px;
+        }
     }
-    .header-hr {
-        margin: 3rem 0;
-    }
-
-    /******BODY***/
-    h2{
-        margin-bottom: 3rem;
-    }
-    h3{
-        margin: 3.5rem 0;
-    }
-    p{
-        font-size: 1.5em;
-    }
-}
-
-@media only screen and (min-width: 1200px) {
-    #nav-links {
-        font-size: 1.5em;
-    }
-    #nav-links li {
-        margin-right: 15px;
-    }
-    .navbar-brand {
-        font-size: 1.5em;
-        margin-left: 15px;
-    }
-    .header-h1 {
-        font-size: 9rem;
-    }
-    .header-h3 {
-        font-size: 3.5rem;
-    }
-    .header-hr {
-        margin: 4rem 0;
-    }
-    header .btn-primary {
-        font-size: 2rem;
-        margin: 0 15px;
-    }
-}
