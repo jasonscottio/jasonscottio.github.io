@@ -43,7 +43,7 @@
        ============*/
     
     .portImg {
-        width: 90%;
+        width: 70%;
     }
     
     .portCol {
@@ -57,7 +57,7 @@
         width: 100%;
     }
     
-    a.thumbnail:hover,
+    a.thumbnail:hover
     a.thumbnail:focus,
     a.thumbnail.active {
         border-color: rgba(153, 153, 153, .75);
@@ -154,15 +154,15 @@
         }
 
         h2{
-            font-size: 2.45em;
+            font-size: 2.2em;
         }
         h3{
-            font-size: 1.7em;
+            font-size: 1.65em;
         }
 
 
         hr {
-            margin-bottom: 2em;
+            margin-bottom: 2em
         }
         
         .portImg {
@@ -188,7 +188,7 @@
 
     @media only screen and (min-width: 1200px){
         header{
-            font-size: 2.25em;
+            font-size: 2.2em;
         }
 
 
