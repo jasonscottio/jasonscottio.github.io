@@ -154,10 +154,10 @@
         }
 
         h2{
-            font-size: 2.5em;
+            font-size: 2.45em;
         }
         h3{
-            font-size: 1.75em;
+            font-size: 1.7em;
         }
 
 
@@ -191,9 +191,6 @@
             font-size: 2.25em;
         }
 
-        #about p, #contact p, #contact a {
-            font-size: 1.25em;
-        }
 
         #contact p {
             margin-top: 2em;
